@@ -1,0 +1,16 @@
+
+  
+ <%- include('header') -%> 
+
+  <div class="center-div mt-5" id="login">
+    <div class="container w-25 border py-5 mt-5 text-center">
+      <!-- Add the 'text-center' class to center the content horizontally -->
+      <h3 class="label_text">Welcome AJ, Tech Hub</h3>
+      <h5 class="label_text">your user name is ' <%= user ? user : "User" %> '</h5>
+      <!-- <a href="/route/logout">Logout</a> -->
+      <form action="/route/logout" method="post">
+        <button class="btn btn-success rounded-pill">Logout</button>
+      </form>
+    </div>
+  </div>
+  <%- include('footer') -%>

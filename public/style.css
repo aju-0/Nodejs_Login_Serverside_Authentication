@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Familjen+Grotesk:wght@400;600;700&family=Oswald:wght@200;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&family=Yesteryear&display=swap');
+
+body{
+
+    font-family: 'Oswald', sans-serif;
+    font-weight:700;
+    background-image: url('assets/jp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center-div{
+    padding-top: 10%;
+}
+.btn.btn-danger{
+    padding: .4em 2em;
+}
+form{
+    padding: 0 3em;
+}
+ #span1{
+    font-size: .8em;
+}
+
+#border1 {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid #000; /* Add a bold black border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a black box shadow */
+    padding: 20px;
+}
+.container {
+  border: 2px solid black; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+ 
+}
+.label_text{
+    color: white;
+
+}
